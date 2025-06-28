@@ -3,7 +3,7 @@
     public partial class StockPortfolioScenarios
     {
         [SetUp]
-        public void SetUp()
+        public void SetUp() 
         {
         }
         
