@@ -14,12 +14,12 @@
 
             Print_portfolio();
 
-            string expected = "company | share name | operation | quantity\n" +
+            string expected = "date | share name | operation | quantity\n" +
                               "14/02/1990 | Old School Waterfall Software LTD | BUY | 1000\n" +
                               "03/08/2006 | Crafter Masters Limited | BUY | 800\n" +
                               "11/12/2010 | Old School Waterfall Software LTD | SELL | 500\n" +
                               "09/06/2016 | XP Practitioners Incorporated | BUY | 700\n" +
-                              "11/02/2020 | Old School Waterfall Software LTD | SELL | 300\n";
+                              "11/02/2020 | Old School Waterfall Software LTD | SELL | 300";
             Printed_portfolio_should_be(expected);
         }
     }
